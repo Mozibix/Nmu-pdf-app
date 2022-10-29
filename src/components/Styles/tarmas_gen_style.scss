@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+section {
+  &.tarma_course {
+    .button {
+      inset: 0 -38.5rem;
+      .links {
+        text-decoration: none;
+      }
+    }
+
+    .tarma_flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

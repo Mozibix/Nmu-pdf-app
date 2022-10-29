@@ -1,0 +1,58 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+section {
+  &.course1_sec {
+    box-shadow: $bg-shadow;
+
+    padding: 2rem;
+    .header_text {
+      text-transform: uppercase;
+    }
+
+    .courses_list {
+      background-color: $white;
+      width: 20rem;
+      margin: 0 5.5rem;
+
+      ul {
+        list-style: none;
+        overflow-y: scroll;
+        height: 28rem;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        li {
+          margin: 1.5rem;
+          border: none;
+          border-radius: 15px;
+          box-shadow: $shadow;
+          cursor: pointer;
+          height: 3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: $home-text;
+
+          .links {
+            all: unset;
+
+            &:hover{
+              color: $hover;
+            }
+          }
+        }
+      }
+    }
+  }
+}

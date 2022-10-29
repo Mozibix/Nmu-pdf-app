@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,3 +7,55 @@
   position: relative;
 }
 
+main {
+  text-align: center;
+  margin-top: 4rem;
+  section {
+    .descript_text {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 48px;
+      color: $home-text;
+      P {
+        span {
+          font-weight: 600;
+        }
+        .nmu {
+          color: $span;
+          font-size: 25px;
+          text-transform: uppercase;
+        }
+
+        .pdf {
+          color: $black;
+          text-transform: capitalize;
+
+          &-text {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    margin: 9rem 0;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+    border: none;
+    background-color: $span;
+    color: $white;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.5;
+      background-color: $hover;
+    }
+
+    .links {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}

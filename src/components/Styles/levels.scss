@@ -1,0 +1,62 @@
+@import "./colors.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+section {
+  align-items: center;
+  text-align: center;
+
+  header {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    background-color: $white;
+    width: 20rem;
+    padding: 1rem;
+    inset: 2rem 30rem;
+    z-index: 1;
+    font-size: 18px;
+  }
+
+  .lists_levels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $bg-shadow;
+    background-color: $white;
+    height: 31rem;
+    width: 50rem;
+    margin: 1rem 15rem;
+    ul {
+      margin: 1rem 0;
+      width: 25rem;
+      list-style: none;
+      li {
+        margin: 2rem;
+        border: none;
+        border-radius: 15px;
+        box-shadow: $shadow;
+        cursor: pointer;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $home-text;
+
+         .links {
+          text-decoration: none;
+          color: $home-text;
+
+          &:hover{
+            color: $span;
+          }
+        }
+      }
+    }
+  }
+}

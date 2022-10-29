@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "../../Styles/levels.scss";
 
 const Level = () => {
   return (
@@ -10,11 +12,31 @@ const Level = () => {
 
         <div className="lists_levels">
           <ul>
-            <li>Tarma 1</li>
-            <li>Tarma 2</li>
-            <li>Tarma 3</li>
-            <li>Tarma 4</li>
-            <li>Tarma 5</li>
+            <li>
+              <Link className="links" to="/tarma1">
+                Tarma-1
+              </Link>{" "}
+            </li>
+            <li>
+              <Link className="links" to="/tarma2">
+                Tarma-2
+              </Link>
+            </li>
+            <li>
+              <Link className="links" to="/tarma3">
+                Tarma-3
+              </Link>
+            </li>
+            <li>
+              <Link className="links" to="/tarma4">
+                Tarma-4
+              </Link>
+            </li>
+            <li>
+              <Link className="links" to="/tarma5">
+                Tarma-5
+              </Link>
+            </li>
           </ul>
         </div>
       </section>

@@ -1,3 +1,5 @@
+@import "../Styles/colors.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 }
 
 nav {
-  border: 1px solid;
+  box-shadow: $nav-shadow;
 
   .nav_main {
     padding: 0.5rem;
@@ -29,6 +31,14 @@ nav {
 
       li {
         margin-right: 5rem;
+        .links {
+          text-decoration: none;
+          color: $home-text;
+
+          &:hover{
+            color:$hover;
+          }
+        }
       }
     }
   }
