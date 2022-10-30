@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import Home from "./Components/Pages/Home";
+import Home from "./Components/Pages/HomePage";
 import Level from "./Components/Pages/level_pages/Level";
 import Pdf1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Pdf1";
 import Tarma1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Tarma1";
