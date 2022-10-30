@@ -15,28 +15,43 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    @media screen and (max-width: 1100px) {
+      padding: 0.5rem 0;
+    }
+    
     .logo {
       img {
         height: 3rem;
+        @media screen and (max-width: 1100px) {
+          height: 2rem;
+          width: 6rem;
+        }
       }
     }
-
+    
     ul {
       display: flex;
       align-items: center;
       justify-content: center;
       list-style: none;
       text-transform: uppercase;
-
+      
       li {
         margin-right: 5rem;
+        @media screen and (max-width: 1100px) {
+          margin-right: 0.6rem;
+          margin-left: 0.4rem;
+        }
         .links {
           text-decoration: none;
+          font-weight: 600;
           color: $home-text;
-
-          &:hover{
-            color:$hover;
+          @media screen and (max-width: 1100px) {
+            font-size: 12px;
+          }
+          
+          &:hover {
+            color: $hover;
           }
         }
       }

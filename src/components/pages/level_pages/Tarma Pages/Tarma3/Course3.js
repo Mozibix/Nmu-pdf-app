@@ -6,7 +6,7 @@ const Course3 = () => {
     <>
       <section className="course1_sec">
         <div className="header_text">
-          <h2>Courses Offered By Tarma 3 (Cadets) </h2>
+          <h2>Courses Offered By Tarma 3 (officer Cadets) </h2>
         </div>
 
         <div className="courses_list">

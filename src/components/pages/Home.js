@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Link } from "react-router-dom";
-// import pdf1 from "../files/1. ENG 104.2  - INTRODUCTION TO ENGINEER IN SOCIETY-2.pdf";
 import "../Styles/home.scss";
 const Home = () => {
   return (
@@ -18,14 +16,17 @@ const Home = () => {
               </span>
               .<br />A Web Application that is created to enable students gain
               access to <span className="pdf-text">pdf</span> notes issued by
-              the Lecturer or Course Rep.
+              the <span className="pdf">Lecturer</span> or{" "}
+              <span className="pdf">Course Rep</span>.
             </p>
           </div>
         </section>
 
         <button>
           {" "}
-          <Link className='links'  to="/levels">go to courses</Link>
+          <Link className="links" to="/levels">
+            go to courses
+          </Link>
         </button>
       </main>
     </>
@@ -33,5 +34,3 @@ const Home = () => {
 };
 
 export default Home;
-
-

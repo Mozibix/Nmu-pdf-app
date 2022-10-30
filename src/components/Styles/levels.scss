@@ -19,6 +19,12 @@ section {
     inset: 2rem 30rem;
     z-index: 1;
     font-size: 18px;
+    @media screen and (max-width: 1100px) {
+      width: 20rem;
+      padding: 1rem;
+      inset: 2rem 0rem;
+      font-size: 14px;
+    }
   }
 
   .lists_levels {
@@ -30,10 +36,18 @@ section {
     height: 31rem;
     width: 50rem;
     margin: 1rem 15rem;
+    @media screen and (max-width: 1100px) {
+      margin: 0rem;
+      height: 25rem;
+      width: 20rem;
+    }
     ul {
       margin: 1rem 0;
       width: 25rem;
       list-style: none;
+      @media screen and (max-width: 1100px) {
+        width: 19rem;
+      }
       li {
         margin: 2rem;
         border: none;
@@ -47,12 +61,15 @@ section {
         text-transform: uppercase;
         font-weight: 600;
         color: $home-text;
+        @media screen and (max-width: 1100px) {
+          margin: 1rem;
+        }
 
-         .links {
+        .links {
           text-decoration: none;
           color: $home-text;
 
-          &:hover{
+          &:hover {
             color: $span;
           }
         }

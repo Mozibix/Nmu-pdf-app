@@ -7,13 +7,13 @@ const Pdf3 = () => {
     <>
       <section className="pdf_sec1">
         <div className="top">
-          <div className="button">
+          <div className=" button">
             <Link className="links" to={"/tarma3"}>
               Back to Courses
             </Link>{" "}
           </div>
 
-          <div className="download">
+          <div className=" download">
             <Link
               className="links"
               target="_blank"
