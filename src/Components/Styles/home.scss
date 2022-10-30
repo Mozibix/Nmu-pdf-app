@@ -1,0 +1,84 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+main {
+  text-align: center;
+  margin-top: 4rem;
+  @media screen and (max-width: 1100px) {
+    margin-top: 1rem;
+  }
+  section {
+    &.hero {
+      .descript_text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 48px;
+        color: $home-text;
+        P {
+          @media screen and (max-width: 1100px) {
+            letter-spacing: 1px;
+            line-height: 30px;
+            word-spacing: 2px;
+            padding: 1rem;
+          }
+          span {
+            font-weight: 600;
+          }
+          .nmu {  
+            color: $span;
+            font-size: 25px;
+            text-transform: uppercase;
+            @media screen and (max-width: 1100px) {
+              font-size: 20px;
+           
+              
+            }
+          }
+
+          .pdf {
+            color: $black;
+            text-transform: capitalize;
+
+            &-text {
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    margin: 9rem 0;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    border-radius: 15px;
+    border: none;
+    background-color: $span;
+    font-weight: 600;
+    color: $white;
+    cursor: pointer;
+    
+    @media screen and (max-width: 1100px) {
+      margin: 4rem 0;
+      padding: 1rem 3rem;
+      
+      }
+
+    &:hover {
+      opacity: 0.5;
+      background-color: $hover;
+    }
+
+    .links {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
