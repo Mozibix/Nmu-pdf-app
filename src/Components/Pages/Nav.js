@@ -18,7 +18,7 @@ const Nav = () => {
                 <Link className="links" to="/">home</Link>{" "}
               </li>
               <li>
-                <Link className="links" to="levels">tarma/level</Link>
+                <Link className="links" to="/levels">tarma/level</Link>
               </li>
               <li>
                 <Link className="links" to="/aboutpage">about</Link>{" "}
