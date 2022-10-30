@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import AboutPage from "./Components/Pages/AboutPage";
-import Home from "./Components/Pages/Home";
+import Home from "./Components/Pages/HomePage";
 import Level from "./Components/Pages/level_pages/Level";
 import Pdf1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Pdf1";
 import Tarma1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Tarma1";
@@ -28,9 +28,9 @@ function App() {
                 </>
               }
             >
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Home/>} />
               <Route path="/levels" element={<Level />} />
-              <Route path="/aboutpage" element={<AboutPage />} />
+              <Route path="/about" element={<AboutPage />} />
               <Route path="/tarma1" element={<Tarma1 />} />
               <Route path="/tarma2" element={<Tarma2 />} />
               <Route path="/tarma3" element={<Tarma3 />} />

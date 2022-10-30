@@ -15,13 +15,19 @@ const Nav = () => {
 
             <ul>
               <li>
-                <Link className="links" to="/">home</Link>{" "}
+                <Link className="links" to="/">
+                  home
+                </Link>{" "}
               </li>
               <li>
-                <Link className="links" to="/levels">tarma/level</Link>
+                <Link className="links" to="/levels">
+                  tarma/level
+                </Link>
               </li>
               <li>
-                <Link className="links" to="/aboutpage">about</Link>{" "}
+                <Link className="links" to="/about">
+                  about
+                </Link>{" "}
               </li>
             </ul>
           </div>
