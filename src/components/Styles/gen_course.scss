@@ -11,12 +11,18 @@ section {
   &.course1_sec {
     box-shadow: $bg-shadow;
     padding: 2rem;
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 500px) {
+      padding: 2rem 0;
+    }
+    @media screen and (min-width: 340px) and (max-width: 380px) {
+      padding: 1.5rem 0;
+    }
+    @media screen and (min-width: 381px) and (max-width: 500px) {
       padding: 2rem 0;
     }
     .header_text {
       text-transform: uppercase;
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 500px) {
         font-size: 12px;
       }
     }
@@ -25,15 +31,26 @@ section {
       background-color: $white;
       width: 20rem;
       margin: 0 5.5rem;
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 500px) {
         width: 18rem;
         margin: 0 1rem;
+      }
+      @media screen and (min-width: 340px) and (max-width: 380px) {
+        margin: 0 2rem;
+      }
+      @media screen and (min-width: 381px) and (max-width: 500px) {
+        width: 20rem;
+        margin: 0 3rem;
       }
 
       ul {
         list-style: none;
         overflow-y: scroll;
         height: 28rem;
+
+        .links {
+          all: unset;
+        }
 
         &::-webkit-scrollbar {
           display: none;
@@ -53,12 +70,8 @@ section {
           font-weight: 600;
           color: $home-text;
 
-          .links {
-            all: unset;
-
-            &:hover {
-              color: $hover;
-            }
+          &:hover {
+            color: $hover;
           }
         }
       }

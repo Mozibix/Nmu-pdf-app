@@ -7,13 +7,9 @@ const Pdf1 = () => {
     <>
       <section className="pdf_sec1">
         <div className="top">
-          <div className="button">
-            <Link className="links" to={"/tarma1"}>
-              Back to Courses
-            </Link>{" "}
-          </div>
-
-          <div className="download">
+          <Link className="links" to={"/tarma1"}>
+            <div className="button">Back to Courses</div>
+          </Link>{" "}
             <Link
               className="links"
               target="_blank"
@@ -21,9 +17,10 @@ const Pdf1 = () => {
               download
               to={pdf1}
             >
+          <div className="download">
               Download
-            </Link>
           </div>
+            </Link>
         </div>
         <div className="head_text">
           <h2>PDF VIEW</h2>

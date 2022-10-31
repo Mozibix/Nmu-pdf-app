@@ -22,12 +22,9 @@ const Home = () => {
           </div>
         </section>
 
-        <button>
-          {" "}
-          <Link className="links" to="/levels">
-            go to courses
-          </Link>
-        </button>
+        <Link className="links" to="/levels">
+          <button> go to courses</button>
+        </Link>
       </main>
     </>
   );

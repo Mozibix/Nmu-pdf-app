@@ -9,25 +9,25 @@
 
 section {
   &.tarma_course {
-    .button {
-      inset: 0.5rem 0.5rem;
-      width: 10rem;
-      border-radius: 15px;
-      font-weight: 600;
-      box-shadow: $shadow;
-      text-transform: uppercase;
-      cursor: pointer;
-      padding: 0.5rem 0.5rem;
-      @media screen and (max-width: 1100px) {
-        inset: 0.5rem 0;
-        width: 8rem;
-        font-size: 11px;
-        padding: 0.4rem 0;
-  }
-      .links {
-        text-decoration: none;
-        &:hover{
-          color: $hover;
+    .links {
+      text-decoration: none;
+      &:hover {
+        color: $hover;
+      }
+      .button {
+        inset: 0.5rem 0.5rem;
+        width: 10rem;
+        border-radius: 15px;
+        font-weight: 600;
+        box-shadow: $shadow;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 0.5rem 0.5rem;
+        @media screen and (max-width: 1100px) {
+          inset: 0.5rem 0;
+          width: 8rem;
+          font-size: 11px;
+          padding: 0.4rem 0;
         }
       }
     }
