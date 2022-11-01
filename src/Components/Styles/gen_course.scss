@@ -48,6 +48,18 @@ section {
         overflow-y: scroll;
         height: 28rem;
 
+        h2{
+          text-transform: uppercase;
+          padding: 1rem 0;
+          margin-top: 3rem;
+          border-radius: 10px;
+          color: $span;
+          text-align: center;
+          word-spacing: 1px;
+          letter-spacing: 5px;
+          border: 2px solid $span;
+        }
+
         .links {
           all: unset;
         }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ges from "../../../../files/Tarma_pdf/tarma1_pdf/GES 112-1.pdf";
+import ges from "../../../../files/Tarma_pdf/tarma1_pdf/ges112-1.pdf";
 import "../../../../Styles/gen_pdf.scss";
 const Ges112 = () => {
   return (

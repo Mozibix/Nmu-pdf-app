@@ -11,13 +11,38 @@ const Course1 = () => {
 
         <div className="courses_list">
           <ul>
-          
+            {/* MTH SECTION */}
+            <h2>mth 102 section</h2>
+            <Link className="links" to="/math102_1">
+              <li>mth 102.2(pdf 1)</li>
+            </Link>{" "}
+            <Link className="links" to="/math102_2">
+              <li>mth 102.2(pdf 2)</li>
+            </Link>{" "}
+            {/* BIO SECTION */}
+            <h2>bio 102 section</h2>
             <Link className="links" to="/bio102">
               <li>Bio 102.2</li>
             </Link>{" "}
+            {/* GES SECTION */}
+            <h2>ges 112 section</h2>
             <Link className="links" to="/ges112">
-              <li>ges 112.2 </li>
+              <li>ges 112.2 (pdf 1)</li>
             </Link>{" "}
+            <Link className="links" to="/ges112_2">
+              <li>ges 112.2 (pdf 2)</li>
+            </Link>{" "}
+            <Link className="links" to="/ges112_3">
+              <li>ges 112.2 (pdf 3)</li>
+            </Link>{" "}
+            <Link className="links" to="/ges112_4">
+              <li>ges 112.2 (pdf 4)</li>
+            </Link>{" "}
+            <Link className="links" to="/ges112_5">
+              <li>ges 112.2 (pdf 5)</li>
+            </Link>{" "}
+            {/* ENG SECTION */}
+            <h2>eng 104 section</h2>
             <Link className="links" to="/eng104">
               <li>eng 104.2(PDF 1)</li>
             </Link>{" "}
@@ -42,6 +67,8 @@ const Course1 = () => {
             <Link className="links" to="/eng104_8">
               <li>eng 104.2(PDF 8)</li>
             </Link>{" "}
+            {/* PHY SECTION */}
+            <h2>phy 102 section</h2>
             <Link className="links" to="/phy102_1">
               <li>phy 102.2(PDF 1)</li>
             </Link>{" "}
@@ -54,6 +81,32 @@ const Course1 = () => {
             <Link className="links" to="/phy102_4">
               <li>phy 102.2(PDF 4)</li>
             </Link>{" "}
+            <Link className="links" to="/phy102_5">
+              <li>phy 102.2(PDF 5)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_6">
+              <li>phy 102.2(PDF 6)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_7">
+              <li>phy 102.2(PDF 7)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_8">
+              <li>phy 102.2(PDF 8)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_9">
+              <li>phy 102.2(PDF 9)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_10">
+              <li>phy 102.2(PDF 10)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_11">
+              <li>phy 102.2(PDF 11)</li>
+            </Link>{" "}
+            <Link className="links" to="/phy102_12">
+              <li>phy 102.2(PDF 12)</li>
+            </Link>{" "}
+            {/* CHEM SECTION */}
+            <h2>chem 102 section</h2>
             <Link className="links" to="/chem102_1">
               <li>chem 102.2(PDF 1)</li>
             </Link>{" "}
@@ -66,6 +119,14 @@ const Course1 = () => {
             <Link className="links" to="/chem102_4">
               <li>chem 102.2(PDF 4)</li>
             </Link>{" "}
+            <Link className="links" to="/chem102_5">
+              <li>chem 102.2(PDF 5)</li>
+            </Link>{" "}
+            <Link className="links" to="/chem102_6">
+              <li>chem 102.2(PDF 6)</li>
+            </Link>{" "}
+            {/* MEK SECTION */}
+            <h2>mek 103 section</h2>
             <Link className="links" to="/mek103-1">
               <li>mek 103.2(PDF 1)</li>
             </Link>{" "}
@@ -81,7 +142,6 @@ const Course1 = () => {
             <Link className="links" to="/mek103-5">
               <li>mek 103.2(PDF 5)</li>
             </Link>{" "}
-         
           </ul>
         </div>
       </section>
