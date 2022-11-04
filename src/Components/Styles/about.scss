@@ -1,0 +1,79 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+section {
+  .footer {
+    text-align: center;
+    font-weight: 500;
+    color: $home-text;
+
+    span {
+      text-transform: capitalize;
+      font-weight: 600;
+
+      &.nmu {
+        color: $span;
+        text-transform: uppercase;
+      }
+    }
+    p {
+      padding-left: 24rem;
+      padding-right: 24rem;
+      letter-spacing: 1px;
+      line-height: 25px;
+
+      @media screen and (max-width: 1000px) {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        letter-spacing: 1px;
+        line-height: 18px;
+      }
+    }
+
+    .header_text {
+      padding-block: 1.5rem;
+      background-color: #f0f0f0;
+      height: 20vh;
+      @media screen and (max-width: 1000px) {
+        padding-block: 0.5rem;
+        height: 18vh;
+      }
+    }
+
+    .ceo_info {
+      background-color: $bg-light;
+      @media screen and (max-width: 1000px) {
+        margin-bottom: 3rem;
+      }
+      .about_ceo {
+        h3 {
+          text-transform: uppercase;
+          padding-block: 1rem;
+        }
+
+        .image {
+          padding-bottom: 0.5rem;
+          @media screen and (max-width: 1000px) {
+            padding-bottom: 1rem;
+          }
+          img {
+            height: 15rem;
+            width: 15rem;
+            border-radius: 50%;
+
+            @media screen and (max-width: 1000px) {
+              height: 10rem;
+              width: 10rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

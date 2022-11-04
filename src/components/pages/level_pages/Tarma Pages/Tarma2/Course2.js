@@ -11,26 +11,72 @@ const Course2 = () => {
 
         <div className="courses_list">
           <ul>
-            <li>
-              <Link className="links" to="/page2">eng 101.5</Link>{" "}
-            </li>
-            <li>
-              <Link className="links" to="/page2">eng 101.5</Link>{" "}
-            </li>
-            <li>
-              <Link className="links" to="/page2">eng 101.5</Link>{" "}
-            </li>
-            <li>
-              <Link className="links" to="/page2">eng 101.5</Link>{" "}
-            </li>
-            <li>
-              <Link className="links" to="/page2">eng 101.5</Link>{" "}
-            </li>
-            <li>eng 101.5</li>
-            <li>eng 101.5</li>
-            <li>eng 101.5</li>
-            <li>eng 101.5</li>
-            <li>eng 101.5</li>
+            {/* CSC 202.2 */}
+            <h2>computer section</h2>
+            <Link className="links" to="/csc202_1">
+              <li>csc 202.2(pdf 1)</li>
+            </Link>{" "}
+            <Link className="links" to="/csc202_2">
+              <li>csc 202.2(pdf 2)</li>
+            </Link>{" "}
+            {/* ENG 212.2 */}
+            <h2>strength of materials section</h2>
+            <Link className="links" to="/eng212_1">
+              <li>eng 212.2(pdf 1)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng212_2">
+              <li>eng 212.2(pdf 2)</li>
+            </Link>{" "}
+            {/* ENG 244.2 */}
+            <h2>workshop pract. section</h2>
+            <Link className="links" to="/eng244_1">
+              <li>eng 244.2(pdf 1)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng244_2">
+              <li>eng 244.2(pdf 2)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng244_3">
+              <li>eng 244.2(pdf 3)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng244_4">
+              <li>eng 244.2(pdf 4)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng244_5">
+              <li>eng 244.2(pdf 5)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng244_6">
+              <li>eng 244.2(pdf 6)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng244_7">
+              <li>eng 244.2(pdf 7)</li>
+            </Link>{" "}
+            {/* ENG 246.2 */}
+            <h2>engine drawing section</h2>
+            <Link className="links" to="/eng246_1">
+              <li>eng 246.2(pdf 1)</li>
+            </Link>{" "}
+            <Link className="links" to="/eng246_2">
+              <li>eng 246.2(pdf 2)</li>
+            </Link>{" "}
+            {/* ENG 249.2 */}
+            <h2>fluid mechanics section</h2>
+            <Link className="links" to="/eng246_1">
+              <li>eng 249.2</li>
+            </Link>{" "}
+            {/* MRT 232.2 */}
+            <h2>seamanship section</h2>
+            <Link className="links" to="/mrt232_1">
+              <li>mrt 232.2(pdf 1)</li>
+            </Link>{" "}
+            <Link className="links" to="/mrt232_2">
+              <li>mrt 232.2(pdf 2)</li>
+            </Link>{" "}
+            <Link className="links" to="/mrt232_3">
+              <li>mrt 232.2(pdf 3)</li>
+            </Link>{" "}
+            <Link className="links" to="/mrt232_4">
+              <li>mrt 232.2(pdf 4)</li>
+            </Link>{" "}
           </ul>
         </div>
       </section>

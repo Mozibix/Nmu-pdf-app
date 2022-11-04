@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../Styles/levels.scss";
+import Footer from "../Footer";
 
 const Level = () => {
   return (
@@ -29,6 +30,8 @@ const Level = () => {
             </Link>
           </ul>
         </div>
+
+        <Footer />
       </section>
     </>
   );

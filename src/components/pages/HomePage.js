@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/home.scss";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <>
@@ -25,6 +26,8 @@ const Home = () => {
         <Link className="links" to="/levels">
           <button> go to courses</button>
         </Link>
+
+        <Footer />
       </main>
     </>
   );

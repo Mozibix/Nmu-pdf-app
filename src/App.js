@@ -5,19 +5,19 @@ import Home from "./Components/Pages/HomePage";
 import Level from "./Components/Pages/level_pages/Level";
 import Bio102 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/BIo102";
 import Chem5 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102-5";
-import Chem102_1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_1";
-import Chem102_2 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_2";
-import Chem102_3 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_3";
-import Chem102_4 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_4";
+import Chem102A from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_1";
+import Chem102B from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_2";
+import Chem102C from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_3";
+import Chem102D from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_4";
 import Chem6 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Chem102_6";
 import Eng104 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104";
-import Eng104_2 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_2";
-import Eng104_3 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_3";
-import Eng104_4 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_4";
-import Eng104_5 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_5";
-import Eng104_6 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_6";
-import Eng104_7 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_7";
-import Eng104_8 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_8";
+import Eng104B from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_2";
+import Eng104C from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_3";
+import Eng104D from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_4";
+import Eng104E from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_5";
+import Eng104F from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_6";
+import Eng104G from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_7";
+import Eng104H from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Eng104_8";
 import Ges112 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Ges112";
 import Ges2 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Ges112-2";
 import Ges3 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Ges112-3";
@@ -30,21 +30,37 @@ import Mek4 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Mek103_4";
 import Mek5 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Mek103_5";
 import Mth1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Mth102_1";
 import Mth2 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Mth102_2";
-import Pdf1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Pdf1";
 import Phy102 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102";
 import Phy10 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_10";
 import Phy11 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_11";
 import Phy12 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_12";
-import Phy102_2 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_2";
-import Phy102_3 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_3";
-import Phy102_4 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_4";
+import Phy102B from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_2";
+import Phy102C from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_3";
+import Phy102D from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_4";
 import Phy5 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_5";
 import Phy6 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_6";
 import Phy7 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_7";
 import Phy8 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_8";
 import Phy9 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_9";
 import Tarma1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Tarma1";
-import Pdf2 from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Pdf2";
+import Csc202A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Csc202_1";
+import Csc202B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Csc202_2";
+import Eng212A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng212_1";
+import Eng212B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng212_2";
+import Eng244A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_1";
+import Eng244B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_2";
+import Eng244C from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_3";
+import Eng244D from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_4";
+import Eng244E from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_5";
+import Eng244F from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_6";
+import Eng244G from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_7";
+import Eng246A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng246_1";
+import Eng246B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng246_2";
+import Eng249A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng249_1";
+import Mrt232A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_1";
+import Mrt232B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_2";
+import Mrt232C from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_3";
+import Mrt232D from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_4";
 import Tarma2 from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Tarma2";
 import Eee310 from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Eee310";
 import Eee310B from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Eee310_2";
@@ -77,11 +93,20 @@ import Mee342C from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Mee342_3"
 import Mee342D from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Mee342_4";
 import Mth308A from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Mth308_1";
 import Mth308Pq from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Mth308_pq";
-import Pdf3 from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Pdf3";
 import SteamTable from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Steam-Table";
 import Tarma3 from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Tarma3";
 import Tarma4 from "./Components/Pages/level_pages/Tarma Pages/Tarma4/Tarma4";
-import Pdf5 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Pdf5";
+import Eng501 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Eng501_1";
+import Eng502A from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Eng502_1";
+import Eng502B from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Eng502_2";
+import Eng502C from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Eng502_3";
+import Eng502D from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Eng502_4";
+import Mae506 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Mae506_1";
+import Mae512 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Mae512_1";
+import Mae522A from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Mae522_1";
+import Mae522B from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Mae522_2";
+import Mae542 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Mae542_1";
+import Pge551 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Pge551_1";
 import Tarma5 from "./Components/Pages/level_pages/Tarma Pages/Tarma5/Tarma5";
 import Nav from "./Components/Pages/Nav";
 
@@ -111,12 +136,6 @@ function App() {
               <Route path="/tarma5" element={<Tarma5 />} />
             </Route>
 
-            {/* DEMO PDFS */}
-            <Route path="/page" element={<Pdf1 />} />
-            <Route path="/page2" element={<Pdf2 />} />
-            <Route path="/page3" element={<Pdf3 />} />
-            <Route path="/page5" element={<Pdf5 />} />
-
             {/* TARMA 1 */}
             {/* MATH TARMA 1 */}
             <Route path="/math102_1" element={<Mth1 />} />
@@ -134,19 +153,19 @@ function App() {
 
             {/* ENG TARMA 1 */}
             <Route path="/eng104" element={<Eng104 />} />
-            <Route path="/eng104_2" element={<Eng104_2 />} />
-            <Route path="/eng104_3" element={<Eng104_3 />} />
-            <Route path="/eng104_4" element={<Eng104_4 />} />
-            <Route path="/eng104_5" element={<Eng104_5 />} />
-            <Route path="/eng104_6" element={<Eng104_6 />} />
-            <Route path="/eng104_7" element={<Eng104_7 />} />
-            <Route path="/eng104_8" element={<Eng104_8 />} />
+            <Route path="/eng104_2" element={<Eng104B />} />
+            <Route path="/eng104_3" element={<Eng104C />} />
+            <Route path="/eng104_4" element={<Eng104D />} />
+            <Route path="/eng104_5" element={<Eng104E />} />
+            <Route path="/eng104_6" element={<Eng104F />} />
+            <Route path="/eng104_7" element={<Eng104G />} />
+            <Route path="/eng104_8" element={<Eng104H />} />
 
             {/* PHY TARMA 1 */}
             <Route path="/phy102_1" element={<Phy102 />} />
-            <Route path="/phy102_2" element={<Phy102_2 />} />
-            <Route path="/phy102_3" element={<Phy102_3 />} />
-            <Route path="/phy102_4" element={<Phy102_4 />} />
+            <Route path="/phy102_2" element={<Phy102B />} />
+            <Route path="/phy102_3" element={<Phy102C />} />
+            <Route path="/phy102_4" element={<Phy102D />} />
             <Route path="/phy102_5" element={<Phy5 />} />
             <Route path="/phy102_6" element={<Phy6 />} />
             <Route path="/phy102_7" element={<Phy7 />} />
@@ -157,10 +176,10 @@ function App() {
             <Route path="/phy102_12" element={<Phy12 />} />
 
             {/* CHEM TARMA 1 */}
-            <Route path="/chem102_1" element={<Chem102_1 />} />
-            <Route path="/chem102_2" element={<Chem102_2 />} />
-            <Route path="/chem102_3" element={<Chem102_3 />} />
-            <Route path="/chem102_4" element={<Chem102_4 />} />
+            <Route path="/chem102_1" element={<Chem102A />} />
+            <Route path="/chem102_2" element={<Chem102B />} />
+            <Route path="/chem102_3" element={<Chem102C />} />
+            <Route path="/chem102_4" element={<Chem102D />} />
             <Route path="/chem102_5" element={<Chem5 />} />
             <Route path="/chem102_6" element={<Chem6 />} />
 
@@ -170,6 +189,37 @@ function App() {
             <Route path="/mek103-3" element={<Mek3 />} />
             <Route path="/mek103-4" element={<Mek4 />} />
             <Route path="/mek103-5" element={<Mek5 />} />
+
+            {/* TARMA 2 */}
+            {/* CSC 202.2 */}
+            <Route path="/csc202_1" element={<Csc202A />} />
+            <Route path="/csc202_2" element={<Csc202B />} />
+
+            {/* ENG 212.2 */}
+            <Route path="/eng212_1" element={<Eng212A />} />
+            <Route path="/eng212_2" element={<Eng212B />} />
+
+            {/* ENG 244.2 */}
+            <Route path="/eng244_1" element={<Eng244A />} />
+            <Route path="/eng244_2" element={<Eng244B />} />
+            <Route path="/eng244_3" element={<Eng244C />} />
+            <Route path="/eng244_4" element={<Eng244D />} />
+            <Route path="/eng244_5" element={<Eng244E />} />
+            <Route path="/eng244_6" element={<Eng244F />} />
+            <Route path="/eng244_7" element={<Eng244G />} />
+
+            {/* ENG 246.2 */}
+            <Route path="/eng246_1" element={<Eng246A />} />
+            <Route path="/eng246_2" element={<Eng246B />} />
+
+            {/* ENG 249.2 */}
+            <Route path="/eng249_1" element={<Eng249A />} />
+
+            {/* MRT 232.2 */}
+            <Route path="/mrt232_1" element={<Mrt232A />} />
+            <Route path="/mrt232_2" element={<Mrt232B />} />
+            <Route path="/mrt232_3" element={<Mrt232C />} />
+            <Route path="/mrt232_4" element={<Mrt232D />} />
 
             {/* TARMA 3 */}
 
@@ -225,6 +275,34 @@ function App() {
             <Route path="/mee342_2" element={<Mee342B />} />
             <Route path="/mee342_3" element={<Mee342C />} />
             <Route path="/mee342_4" element={<Mee342D />} />
+
+            {/* TARMA 5 */}
+            {/* MARINE SECTION */}
+            {/* ENG 502.2 */}
+            <Route path="/eng502_1" element={<Eng502A />} />
+            <Route path="/eng502_2" element={<Eng502B />} />
+            <Route path="/eng502_3" element={<Eng502C />} />
+            <Route path="/eng502_4" element={<Eng502D />} />
+
+            {/* MAE 506.2 */}
+            <Route path="/mae506_1" element={<Mae506 />} />
+
+            {/* MAE 512.2 */}
+            <Route path="/mae512_1" element={<Mae512 />} />
+
+            {/* MAE 522.2 */}
+            <Route path="/mae522_1" element={<Mae522A />} />
+            <Route path="/mae522_2" element={<Mae522B />} />
+
+            {/* MAE 542.2 */}
+            <Route path="/mae542_1" element={<Mae542 />} />
+
+            {/* PET AND GAS SECTION */}
+            {/* PGE 551.1 */}
+            <Route path="/pge551_1" element={<Pge551 />} />
+
+            {/* ENG 501.1 */}
+            <Route path="/eng501_1" element={<Eng501 />} />
           </Routes>
         </div>
       </div>

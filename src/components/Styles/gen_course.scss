@@ -48,7 +48,7 @@ section {
         overflow-y: scroll;
         height: 28rem;
 
-        h2{
+        h2 {
           text-transform: uppercase;
           padding: 1rem 0;
           margin-top: 3rem;
@@ -83,6 +83,16 @@ section {
           color: $home-text;
 
           &:hover {
+            color: $hover;
+          }
+          &:active {
+            color: $active;
+          }
+          &:link
+           {
+            color: $hover;
+          }
+          &:visited{
             color: $hover;
           }
         }

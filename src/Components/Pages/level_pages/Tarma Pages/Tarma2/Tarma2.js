@@ -6,11 +6,9 @@ const Tarma2 = () => {
   return (
     <>
       <section className="tarma_course">
-        <div className="button">
-          <Link className="links" to={"/levels"}>
-            Back to levels
-          </Link>{" "}
-        </div>
+        <Link className="links" to={"/levels"}>
+          <div className="button">Back to levels</div>
+        </Link>{" "}
         <div className="tarma_flex">
           <div className="left_sec_inner">
             <Course2 />

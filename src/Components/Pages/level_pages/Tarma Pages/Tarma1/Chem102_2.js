@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import chem2 from "../../../../files/Tarma_pdf/tarma1_pdf/chem102-2.pdf";
 import "../../../../Styles/gen_pdf.scss";
-const Chem102_2 = () => {
+const Chem102B = () => {
   return (
     <>
       <section className="pdf_sec1">
@@ -37,4 +37,4 @@ const Chem102_2 = () => {
   );
 };
 
-export default Chem102_2;
+export default Chem102B;
