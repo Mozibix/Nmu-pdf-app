@@ -14,7 +14,7 @@ const Course2 = () => {
             {/* CSC 202.2 */}
             <h2>computer section</h2>
             <Link className="links" to="/csc202_1">
-              <li>csc 202.2(pdf 1)</li>
+              <li>csc 202.2(computer programming)</li>
             </Link>{" "}
             <Link className="links" to="/csc202_2">
               <li>csc 202.2(pdf 2)</li>
@@ -22,7 +22,7 @@ const Course2 = () => {
             {/* ENG 212.2 */}
             <h2>strength of materials section</h2>
             <Link className="links" to="/eng212_1">
-              <li>eng 212.2(pdf 1)</li>
+              <li>eng 212.2(deflection of beams)</li>
             </Link>{" "}
             <Link className="links" to="/eng212_2">
               <li>eng 212.2(pdf 2)</li>
@@ -30,7 +30,7 @@ const Course2 = () => {
             {/* ENG 244.2 */}
             <h2>workshop pract. section</h2>
             <Link className="links" to="/eng244_1">
-              <li>eng 244.2(pdf 1)</li>
+              <li>eng 244.2(workshop practice)</li>
             </Link>{" "}
             <Link className="links" to="/eng244_2">
               <li>eng 244.2(pdf 2)</li>
@@ -45,7 +45,7 @@ const Course2 = () => {
               <li>eng 244.2(pdf 5)</li>
             </Link>{" "}
             <Link className="links" to="/eng244_6">
-              <li>eng 244.2(pdf 6)</li>
+              <li>eng 244.2(refrigeration)</li>
             </Link>{" "}
             <Link className="links" to="/eng244_7">
               <li>eng 244.2(pdf 7)</li>
@@ -53,15 +53,15 @@ const Course2 = () => {
             {/* ENG 246.2 */}
             <h2>engine drawing section</h2>
             <Link className="links" to="/eng246_1">
-              <li>eng 246.2(pdf 1)</li>
+              <li>eng 246.2(assembly)</li>
             </Link>{" "}
             <Link className="links" to="/eng246_2">
-              <li>eng 246.2(pdf 2)</li>
+              <li>eng 246.2(tolerance and limit)</li>
             </Link>{" "}
             {/* ENG 249.2 */}
             <h2>fluid mechanics section</h2>
             <Link className="links" to="/eng246_1">
-              <li>eng 249.2</li>
+              <li>eng 249.2(fluid mechanics)</li>
             </Link>{" "}
             {/* MRT 232.2 */}
             <h2>seamanship section</h2>
@@ -75,7 +75,7 @@ const Course2 = () => {
               <li>mrt 232.2(pdf 3)</li>
             </Link>{" "}
             <Link className="links" to="/mrt232_4">
-              <li>mrt 232.2(pdf 4)</li>
+              <li>mrt 232.2(wires and wire ropes)</li>
             </Link>{" "}
           </ul>
         </div>
