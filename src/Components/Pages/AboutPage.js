@@ -26,8 +26,8 @@ const AboutPage = () => {
               </div>
               <p>
                 <span className="">Dark Technologies</span> was created by Moses
-                Opusunju, an Engineerging Student of{" "}
-                <span className="nmu">nigerian maritime university</span> and{" "}
+                Opusunju, an Engineering Student of{" "}
+                <span className="nmu">nigerian maritime university</span> and a{" "}
                 <span>web developer</span> who loves using his skills to solve
                 real world problems around him and also learning more about New
                 Technologies.
@@ -38,7 +38,7 @@ const AboutPage = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://opuzmoses@gmail.com"
+                  href="mailto:opuzmoses@gmail.com"
                 >
                   here
                 </a>{" "}
