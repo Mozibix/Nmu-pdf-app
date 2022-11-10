@@ -1,0 +1,58 @@
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.team_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  
+  @media screen and (max-width: 1000px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5rem;
+    
+    
+    }
+  &_inner {
+    width: 20rem;
+    .team_info {
+      .image {
+        padding-bottom: 0.5rem;
+        @media screen and (max-width: 1000px) {
+          padding-bottom: 1rem;
+        }
+
+        img {
+          height: 15rem;
+          width: 15rem;
+          border-radius: 50%;
+
+          @media screen and (max-width: 1000px) {
+            height: 10rem;
+            width: 10rem;
+          }
+        }
+      }
+
+      .details {
+        p {
+          all: unset;
+          text-transform: capitalize;
+          font-weight: 400;
+          font-size: 14px;
+          color: $span;
+          & span {
+              font-size: 18px;
+            font-weight: 600;
+            color: $home-text;
+          }
+        }
+      }
+    }
+  }
+}

@@ -75,5 +75,24 @@ section {
         }
       }
     }
+
+    .team_sec {
+      padding: 4rem;
+    @media screen and (max-width: 1000px) {
+      padding: 0;
+    }
+    @media screen and (min-width: 340px) and (max-width: 380px) {
+      padding: 1.5rem;
+    }
+    @media screen and (min-width: 381px) and (max-width: 1000px) {
+      padding: 3rem ;
+    }
+      h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin: 5rem;
+      }
+    }
   }
 }

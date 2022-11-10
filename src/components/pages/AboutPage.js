@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/about.scss";
 import ceo from "../images/ceo.jpeg";
 import Footer from "./Footer";
+import Team from "./Team";
 
 const AboutPage = () => {
   return (
@@ -44,6 +45,11 @@ const AboutPage = () => {
                 </a>{" "}
               </p>
             </div>
+          </div>
+
+          <div className="team_sec">
+            <h3>TEAM</h3>
+            <Team />
           </div>
 
           <Footer />
