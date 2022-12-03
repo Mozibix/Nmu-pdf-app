@@ -32,7 +32,7 @@ const teamData = [
     img_src: "./images/team5.jpg",
     name: "uwaoma lloyd",
     department: "marine engineering",
-    position: "analyst",
+    position: "(C.C.C)",
   },
   {
     id: 6,

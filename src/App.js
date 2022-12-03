@@ -45,8 +45,11 @@ import Phy9 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Phy102_9";
 import Tarma1 from "./Components/Pages/level_pages/Tarma Pages/Tarma1/Tarma1";
 import Csc202A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Csc202_1";
 import Csc202B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Csc202_2";
+import Eng202A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng202_1";
 import Eng212A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng212_1";
 import Eng212B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng212_2";
+import Eng212C from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng212_3";
+import Eng222A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng222_1";
 import Eng244A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_1";
 import Eng244B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_2";
 import Eng244C from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_3";
@@ -54,13 +57,16 @@ import Eng244D from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_4"
 import Eng244E from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_5";
 import Eng244F from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_6";
 import Eng244G from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_7";
+import Eng244H from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng244_8";
 import Eng246A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng246_1";
 import Eng246B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng246_2";
+import Eng246C from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng246_3";
 import Eng249A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Eng249_1";
 import Mrt232A from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_1";
 import Mrt232B from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_2";
 import Mrt232C from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_3";
 import Mrt232D from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_4";
+import Mrt232E from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Mrt232_5";
 import Tarma2 from "./Components/Pages/level_pages/Tarma Pages/Tarma2/Tarma2";
 import Eee310 from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Eee310";
 import Eee310B from "./Components/Pages/level_pages/Tarma Pages/Tarma3/Eee310_2";
@@ -191,6 +197,9 @@ function App() {
             <Route path="/mek103-5" element={<Mek5 />} />
 
             {/* TARMA 2 */}
+            {/* ENG 202.2 ENGINE MATHS */}
+            <Route path="/eng202_1" element={<Eng202A />} />
+
             {/* CSC 202.2 */}
             <Route path="/csc202_1" element={<Csc202A />} />
             <Route path="/csc202_2" element={<Csc202B />} />
@@ -198,6 +207,10 @@ function App() {
             {/* ENG 212.2 */}
             <Route path="/eng212_1" element={<Eng212A />} />
             <Route path="/eng212_2" element={<Eng212B />} />
+            <Route path="/eng212_3" element={<Eng212C />} />
+
+            {/* ENG 222.2  BASIC ELECT */}
+            <Route path="/eng222_1" element={<Eng222A />} />
 
             {/* ENG 244.2 */}
             <Route path="/eng244_1" element={<Eng244A />} />
@@ -207,10 +220,12 @@ function App() {
             <Route path="/eng244_5" element={<Eng244E />} />
             <Route path="/eng244_6" element={<Eng244F />} />
             <Route path="/eng244_7" element={<Eng244G />} />
+            <Route path="/eng244_8" element={<Eng244H />} />
 
             {/* ENG 246.2 */}
             <Route path="/eng246_1" element={<Eng246A />} />
             <Route path="/eng246_2" element={<Eng246B />} />
+            <Route path="/eng246_3" element={<Eng246C />} />
 
             {/* ENG 249.2 */}
             <Route path="/eng249_1" element={<Eng249A />} />
@@ -220,6 +235,7 @@ function App() {
             <Route path="/mrt232_2" element={<Mrt232B />} />
             <Route path="/mrt232_3" element={<Mrt232C />} />
             <Route path="/mrt232_4" element={<Mrt232D />} />
+            <Route path="/mrt232_5" element={<Mrt232E />} />
 
             {/* TARMA 3 */}
 

@@ -11,6 +11,11 @@ const Course2 = () => {
 
         <div className="courses_list">
           <ul>
+            {/* ENG 202.2 */}
+            <h2>eng maths section</h2>
+            <Link className="links" to="/csc202_1">
+              <li>eng 202.2(eng maths )</li>
+            </Link>{" "}
             {/* CSC 202.2 */}
             <h2>computer section</h2>
             <Link className="links" to="/csc202_1">
@@ -26,6 +31,11 @@ const Course2 = () => {
             </Link>{" "}
             <Link className="links" to="/eng212_2">
               <li>eng 212.2(pdf 2)</li>
+            </Link>{" "}
+            {/* ENG 222.2 */}
+            <h2>basic elect 2 section</h2>
+            <Link className="links" to="/eng222_1">
+              <li>eng 222.2</li>
             </Link>{" "}
             {/* ENG 244.2 */}
             <h2>workshop pract. section</h2>
@@ -76,6 +86,9 @@ const Course2 = () => {
             </Link>{" "}
             <Link className="links" to="/mrt232_4">
               <li>mrt 232.2(wires and wire ropes)</li>
+            </Link>{" "}
+            <Link className="links" to="/mrt232_5">
+              <li>mrt 232.2(ship and ship routine)</li>
             </Link>{" "}
           </ul>
         </div>
