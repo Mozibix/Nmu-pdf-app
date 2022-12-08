@@ -13,7 +13,7 @@ const Course2 = () => {
           <ul>
             {/* ENG 202.2 */}
             <h2>eng maths section</h2>
-            <Link className="links" to="/csc202_1">
+            <Link className="links" to="/eng202_1">
               <li>eng 202.2(eng maths )</li>
             </Link>{" "}
             {/* CSC 202.2 */}
